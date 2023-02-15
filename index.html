@@ -1,38 +1,1066 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/index.js" defer></script>
-    <link href="./css/style.css"rel="stylesheet">
-    <title>Code-Reactors</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>code reactors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark ">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand"><strong>Code-Reactors</strong></a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex" id="navbarCollapse1">
-                    <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link" >Home</a>
-                        <a href="#" class="nav-item nav-link" >About</a>
-                        <a href="#" class="nav-item nav-link">Products</a>
-                        <a href="#" class="nav-item nav-link">Services</a>
-                        <a href="#" class="nav-item nav-link">Contac Us</a>
+    <div class="main-wrapper">
+        <header class="main-header position-absolute w-100">
+            <nav class="navbar navbar-expand-xl navbar-dark sticky-header z-10">
+                <div class="container d-flex align-items-center justify-content-lg-between position-relative">
+                    <a class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+                        Code-Reactors
+                    </a>
+                    <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop">
+                        <span class="far fa-bars" data-bs-target="#offcanvasWithBackdrop"
+                            aria-controls="offcanvasWithBackdrop" data-bs-toggle="offcanvas" role="button"></span>
+                    </a>
+                    <div class="clearfix"></div>
+                    <div class="collapse navbar-collapse justify-content-center">
+                        <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+                            <li><a href="#" class="nav-link">Home</a></li>
+                            <li><a href="#" class="nav-link">Services</a></li>
+                            <li><a href="#" class="nav-link">Resources</a></li>
+                            <li><a href="#" class="nav-link">Pricing</a></li>
+                            <li><a href="#" class="nav-link">Company</a></li>
+                        </ul>
                     </div>
-                    <form class="d-flex ms-auto">
-                        <input type="text" class="form-control me-sm-2" placeholder="Search">
-                        <button type="submit" class="btn btn-outline-light">Search</button>
-                    </form>
+                    <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
+                        <a href="#" class="btn btn-link text-decoration-none me-2">Sign In</a>
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </nav>
+            <!--offcanvas menu start-->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
+                <div class="offcanvas-header d-flex align-items-center mt-4">
+                    <a href="#" class="d-flex align-items-center mb-md-0 text-decoration-none">
+                        <strong>Code-Reactors</strong>
+                    </a>
+                    <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="far fa-close"></i>
+                    </button>
+                </div>
+                <div class="offcanvas-body z-10">
+                    <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+                        <li><a href="#" class="nav-link">Home</a></li>
+                        <li><a href="#" class="nav-link">Services</a></li>
+                        <li><a href="#" class="nav-link">Resources</a></li>
+                        <li><a href="#" class="nav-link">Pricing</a></li>
+                        <li><a href="#" class="nav-link">Company</a></li>
+                    </ul>
+                    <div class="action-btns mt-4 ps-3">
+                        <a href="login.html" class="btn btn-outline-primary me-2">Sign In</a>
+                        <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                    </div>
                 </div>
             </div>
-        </nav>
+            <!--offcanvas menu end-->
+        </header>
+        <!--header end--> <!--header section end-->
 
-    
+        <!-- Hero  Start-->
+        <section class="hero-eleven bg-dark-black pt-120">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12">
+                        <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
+                            <h1 class="fw-bold display-5 text-white">
+                                Trusted & Secure Trading Crypto Wallet
+                            </h1>
+                            <p class="lead text-white">
+                                You might wonder why a designer would choose to use Morem text
+                                Paragraphs in English or their native language.
+                            </p>
+                            <div class="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
+                                <a href="#" class="btn rounded-pill btn-primary me-3"> Get Started </a>
+                                <a href="#"
+                                    class="text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn mt-3 mt-lg-0 mt-md-0">
+                                    <i class="fas fa-play"></i> How it works
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="crypto-hero-img pt-80">
+                            <ul class="currency-icon list-unstyled">
+                                <li>
+                                    <img src="assets/img/currency1.svg" alt="icon" />
+                                </li>
+                                <li>
+                                    <img src="assets/img/currency2.svg" alt="icon" />
+                                </li>
+                                <li>
+                                    <img src="assets/img/currency3.svg" alt="icon" />
+                                </li>
+                                <li>
+                                    <img src="assets/img/currency4.svg" alt="icon" />
+                                </li>
+                            </ul>
+                            <img src="assets/img/crypto-person.png" class="img-fluid" alt="person" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero End -->
+
+        <!-- Crypto Promo Start -->
+        <section class="crypto-promo bg-dark-black pt-120 pb-60">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center mb-5">
+                            <h2>Most Trusted Cryptocurrency Platform</h2>
+                            <p class="px-5">
+                                A cryptocurrency is a tradable digital asset or digital form of
+                                money, built on blockchain technology that only exists online.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bg-soft-black crypto-promo-box mb-30 mb-lg-0">
+                            <div class="crypt-promo-icon">
+                                <i class="far fa-chart-network"></i>
+                            </div>
+                            <h4 class="fw-medium">Best Trading Platform</h4>
+                            <p>
+                                Cryptocurrency does not exist in physical form like paper money
+                                and is typically not issued by a central authority.
+                            </p>
+                            <a href="#" class="link-with-icon text-decoration-none">Explore More <i
+                                    class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bg-soft-black crypto-promo-box mb-30 mb-lg-0">
+                            <div class="crypt-promo-icon">
+                                <i class="far fa-tags"></i>
+                            </div>
+                            <h4 class="fw-medium">Transparent Pricing</h4>
+                            <p>
+                                Cryptocurrency does not exist in physical form like paper money
+                                and is typically not issued by a central authority.
+                            </p>
+                            <a href="#" class="link-with-icon text-decoration-none">Explore More <i
+                                    class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bg-soft-black crypto-promo-box">
+                            <div class="crypt-promo-icon">
+                                <i class="far fa-shield-check"></i>
+                            </div>
+                            <h4 class="fw-medium">Trusted Security</h4>
+                            <p>
+                                Cryptocurrency does not exist in physical form like paper money
+                                and is typically not issued by a central authority.
+                            </p>
+                            <a href="#" class="link-with-icon text-decoration-none">Explore More <i
+                                    class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Crypto Promo End -->
+        <!-- Counter Start -->
+        <section class="crypto-customer-counter bg-dark-black ptb-60">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="crypto-customer-counter">
+                            <div class="counter-content section-title mb-30">
+                                <h2 class="mb-4">
+                                    Our Best Users Are all over the Worldwide Coverage
+                                </h2>
+                                <p>
+                                    You might wonder why a designer would choose to use Morem text
+                                    Paragraphs Lorem Ipsum available but the majority{" "}
+                                </p>
+                                <p>
+                                    embarrassing hidden in the middle of text. All the Lorem Ipsum
+                                    generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true generator on the Internet.
+                                </p>
+                            </div>
+                            <div class="counter-box mb-5 mb-lg-0">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="single-counter-box bg-soft-black mb-3 mb-md-0">
+                                            <h5 class="h4">150k+</h5>
+                                            <span>Pepole who Have Joined </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="single-counter-box bg-soft-black mb-3 mb-md-0">
+                                            <h5 class="h4">45k+</h5>
+                                            <span>Pepole who Have Joined </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="single-counter-box bg-soft-black">
+                                            <h5 class="h4">16k+</h5>
+                                            <span>Pepole Joined Altrawallet </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="maps-img text-lg-center">
+                            <img src="assets/img/maps.png" class="img-fluid" alt="Maps" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Counter End -->
+        <!-- Crypto Table Start -->
+        <section class="bg-dark-black ptb-60">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title text-center mb-4">
+                            <h2 class="mb-4">Crypto Market Live Price</h2>
+                            <p>
+                                Marrassing hidden in the middle of text. All the Lorem Ipsum
+                                generators on the Internet tend to repeat predefined true
+                                generator.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table class="table crypto-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Cryptocurrency</th>
+                                        <th scope="col">USD Price</th>
+                                        <th scope="col">1h % Change</th>
+                                        <th scope="col">24h % Change</th>
+                                        <th scope="col">7d % Change</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/Bitcoin6l39t.png" alt="BTC"
+                                                        width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">Bitcoin</h5>
+                                                    <small>BTC</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">39000</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.04%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-3.26%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-7.82%</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/1648041569987.png" alt="ETH"
+                                                        width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">Ethereum</h5>
+                                                    <small>ETH</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">2896</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.6%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-4.73%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-8.89%</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/1648041546140.png"
+                                                        alt="USDT" width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">Tether</h5>
+                                                    <small>USDT</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">1</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.01%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.05%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.04%</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/binancecoinOxw.png"
+                                                        alt="BNB" width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">Tether</h5>
+                                                    <small>USDT</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">398</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.27%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-3.92%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-4.57%</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/usd-coiniGm.png" alt="USDC"
+                                                        width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">USD Coin</h5>
+                                                    <small>USDC</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">0</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.04%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.13%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-up">0.05%</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/XRPdnqGJ.png" alt="XRP"
+                                                        width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">XRP</h5>
+                                                    <small>XRP</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">0</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.3%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-5.71%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-1.18%</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/solanambZ.png" alt="SOL"
+                                                        width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">Solana</h5>
+                                                    <small>SOL</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">95</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.81%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-6.06%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-13.66%</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/CardanojXddT.png" alt="ADA"
+                                                        width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">Cardana</h5>
+                                                    <small>ADA</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">0</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-up">0.34%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-7.43%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-13.43%</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/terra-luna8uT.png"
+                                                        alt="LUNA" width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">Terra</h5>
+                                                    <small>LUNA</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">76</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.21%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-6.12%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-13.79%</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="coin-info d-flex">
+                                                <div class="coin-icon pe-3">
+                                                    <img src="../static.coinstats.app/coins/avalanche-2IQm.png"
+                                                        alt="AVAX" width="30" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white h6 m-0 fw-medium">Avalanche</h5>
+                                                    <small>AVAX</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="coin-price">73</p>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-0.63%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-6.23%</div>
+                                        </td>
+                                        <td>
+                                            <div class="coin-price-change price-down">-11.01%</div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Crypto Table End -->
+        <!-- Crypto Count Down Start -->
+        <section class="crypto-count-down bg-dark-black pt-60 pb-120">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="coin-img text-center mb-5 mb-lg-0">
+                            <img src="assets/img/coin.png" class="img-fluid" alt="Coin" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="crypto-count-right">
+                            <div class="section-title">
+                                <h2 class="mb-4">Crypto ICO Starts In</h2>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available,
+                                    but the majority have suffered alteration in some form, by
+                                    injected
+                                </p>
+                            </div>
+                            <div class="timer-grid">
+                                <div class="grid-item bg-primary-dark">
+                                    <h5 class="h5">235</h5>
+                                    <span>Days</span>
+                                </div>
+                                <div class="grid-item bg-primary-dark">
+                                    <h5 class="h5">09</h5>
+                                    <span>Hours</span>
+                                </div>
+                                <div class="grid-item bg-primary-dark">
+                                    <h5 class="h5">08</h5>
+                                    <span>Minutes</span>
+                                </div>
+                                <div class="grid-item bg-primary-dark">
+                                    <h5 class="h5">40</h5>
+                                    <span>Seceonds</span>
+                                </div>
+                            </div>
+                            <div class="crypto-progress">
+                                <h5>$35, 356 543 Contribution Recived</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Crypto Count Down End -->
+        <!-- Crypto Cta Start -->
+        <section class="crypto-cta ptb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center">
+                            <h2 class="text-white mb-4">Start Trading on Quiety</h2>
+                            <p class="text-muted mb-30">
+                                If you use this site regularly and would like to help keep the
+                                site on the Internet, please consider donating a small.
+                            </p>
+                            <a href="#" class="btn btn-primary rounded-pill">
+                                Read Reviews <i class="far fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Crypto Cta End-->
+        <!-- Team Start  -->
+        <section class="crypto-team bg-dark-black ptb-60">
+            <div class="container">
+                <div class="row align-items-center mb-30">
+                    <div class="col-lg-5 col-md-8">
+                        <div class="section-title">
+                            <h2 class="text-white mb-4">Our Motivated Team</h2>
+                            <p class="">
+                                If you use this site regularly and would like to help keep the
+                                site on the Internet, please consider donating a small.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-4">
+                        <div class="team-btn text-lg-end">
+                            <a href="#" class="btn btn-primary rounded-pill">
+                                More Member
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="single-crypto-team bg-soft-black mb-30 mb-lg-0">
+                            <img src="assets/img/team/c-team-1.jpg" alt="team member" class="img-fluid" />
+                            <div class="crypto-team-info pt-4 pb-1">
+                                <h4 class="text-white h5">Leslie Alexander</h4>
+                                <p class="m-0 py-1">Crypto Director</p>
+                                <ul class="crypto-team-social list-unstyled list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Linkedin
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Dribble
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Twitter
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="single-crypto-team bg-soft-black mb-30 mb-lg-0">
+                            <img src="assets/img/team/c-team-2.jpg" alt="team member" class="img-fluid" />
+                            <div class="crypto-team-info pt-4 pb-1">
+                                <h4 class="text-white h5">John M. Smith</h4>
+                                <p class="m-0 py-1">Crypto Director</p>
+                                <ul class="crypto-team-social list-unstyled list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Linkedin
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Dribble
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Twitter
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="single-crypto-team bg-soft-black mb-30 mb-lg-0">
+                            <img src="assets/img/team/c-team-3.jpg" alt="team member" class="img-fluid" />
+                            <div class="crypto-team-info pt-4 pb-1">
+                                <h4 class="text-white h5">Kenneth L. Wood</h4>
+                                <p class="m-0 py-1">Crypto Director</p>
+                                <ul class="crypto-team-social list-unstyled list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Linkedin
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Dribble
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Twitter
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="single-crypto-team bg-soft-black mb-30 mb-lg-0">
+                            <img src="assets/img/" alt="team member" class="img-fluid" />
+                            <div class="crypto-team-info pt-4 pb-1">
+                                <h4 class="text-white h5">William R. Ross</h4>
+                                <p class="m-0 py-1">Crypto Director</p>
+                                <ul class="crypto-team-social list-unstyled list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Linkedin
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Dribble
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Twitter
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team End -->
+        <!-- How Started -->
+        <section class="ptb-60 bg-dark-black">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title text-center mb-5">
+                            <h2 class="mb-4">How it All Started</h2>
+                            <p>
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by
+                                injected
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="crypto-timeline bg-soft-black mb-4 mb-lg-0">
+                            <div class="crypto-timeline-icon">
+                                <img src="assets/img/Padlock.svg" alt="Padlock" />
+                            </div>
+                            <p>
+                                In publishing and graphic design, Lorem used to demonstrate the
+                                visual form of relying on meaningful content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="crypto-timeline bg-soft-black mb-4 mb-lg-0">
+                            <div class="crypto-timeline-icon">
+                                <img src="assets/img/star.svg" alt="Padlock" />
+                            </div>
+                            <p>
+                                In publishing and graphic design, Lorem used to demonstrate the
+                                visual form of relying on meaningful content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="crypto-timeline bg-soft-black mb-4 mb-lg-0">
+                            <div class="crypto-timeline-icon">
+                                <img src="assets/img/bitcoin.svg" alt="Padlock" />
+                            </div>
+                            <p>
+                                In publishing and graphic design, Lorem used to demonstrate the
+                                visual form of relying on meaningful content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="crypto-timeline bg-soft-black">
+                            <div class="crypto-timeline-icon">
+                                <img src="assets/img/glowing-star.svg" alt="Padlock" />
+                            </div>
+                            <p>
+                                In publishing and graphic design, Lorem used to demonstrate the
+                                visual form of relying on meaningful content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- How Started End -->
+        <!-- Blog Started  -->
+        <section class="crypto-blog bg-dark-black">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title text-center mb-5">
+                            <h2 class="text-white">Cryptocurrency Recent Posts</h2>
+                            <p>
+                                Right Click on the Download Button in the Font Post and Copy Link
+                                Address and Paste it in the New Tab The Download will Start
+                                Automatically.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="crypto-blog-card bg-soft-black mb-30 mb-lg-0">
+                            <div class="blog-thumb">
+                                <a href="#">
+                                    <img src="assets/img/blog/cbl-1.png" class="img-fluid" alt="thumb" />
+                                </a>
+                            </div>
+                            <h3 class="h4 fw-medium">
+                                <a href="#" class="text-decoration-none text-white">
+                                    How Filecoin is Up in a Week Could Take Care
+                                </a>
+                            </h3>
+                            <p class="m-0">
+                                Words combined with a handful of model to generate which looks
+                                reasonable.
+                            </p>
+                            <div class="author-meta d-flex align-items-center py-4">
+                                <div class="pe-3">
+                                    <img src="assets/img/testimonial/app-testimonial-1.png" alt="" />
+                                </div>
+                                <div>
+                                    <h5 class="fw-normal text-white h6 m-0">St Adward</h5>
+                                    <span>Feb 19, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="crypto-blog-card bg-soft-black mb-30 mb-lg-0">
+                            <div class="blog-thumb">
+                                <a hrft="#">
+                                    <img src="assets/img/blog/cbl-2.png" class="img-fluid" alt="thumb" />
+                                </a>
+                            </div>
+                            <h3 class="h4 fw-medium">
+                                <a href="#" class="text-decoration-none text-white">
+                                    Ethereum Summit Attendees Governance
+                                </a>
+                            </h3>
+                            <p class="m-0">
+                                Words combined with a handful of model to generate which looks
+                                reasonable.
+                            </p>
+                            <div class="author-meta d-flex align-items-center py-4">
+                                <div class="pe-3">
+                                    <img src="assets/img/testimonial/app-testimonial-3.png" alt="" />
+                                </div>
+                                <div>
+                                    <h5 class="fw-normal text-white h6 m-0">Noah L. Paulsen</h5>
+                                    <span>Feb 19, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="crypto-blog-card bg-soft-black">
+                            <div class="blog-thumb">
+                                <a href="#">
+                                    <img src="assets/img/blog/cbl-3.png" class="img-fluid" alt="thumb" />
+                                </a>
+                            </div>
+                            <h3 class="h4 fw-medium">
+                                <a href="#" class="text-decoration-none text-white">
+                                    Ethereum Summit Attendees Governance Plan
+                                </a>
+                            </h3>
+                            <p class="m-0">
+                                Words combined with a handful of model to generate which looks
+                                reasonable.
+                            </p>
+                            <div class="author-meta d-flex align-items-center py-4">
+                                <div class="pe-3">
+                                    <img src="assets/img/testimonial/app-testimonial-2.png" alt="Noah" />
+                                </div>
+                                <div>
+                                    <h5 class="fw-normal text-white h6 m-0">John L. Paulsen</h5>
+                                    <span>Feb 19, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-3">
+                        <div class="text-center mt-5">
+                            <a href="#" class="btn-outline-primary btn rounded-pill text-decoration-none">
+                                All Blog Post
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog End -->
+        <!-- Cta Start -->
+        <section class="bg-dark-black pt-120 pb-60">
+            <div class="container">
+                <div class="bg-soft-black p-4 rounded-custom">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="section-title mb-4">
+                                <h2>Also Available on IOS & Android</h2>
+                                <p>
+                                    This site regularly and would like to help keep the site on the
+                                    Internet please consider donating a small.
+                                </p>
+                            </div>
+                            <div class="crypto-btn-wrapper">
+                                <a href="#" class="crypto-app-btn me-3 text-decoration-none mb-3 mb-xl-0">
+                                    <span class="crypto-btn-content-wrapper">
+                                        <span class="crypto-btn-icon">
+                                            <i class="fab fa-google-play"></i>
+                                        </span>
+                                        <span class="text-wrapper">
+                                            <span class="btn-tagline">Available on the </span>
+                                            <span class="crypto-btn-text">Play Store</span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="crypto-app-btn me-3 text-decoration-none">
+                                    <span class="crypto-btn-content-wrapper">
+                                        <span class="crypto-btn-icon">
+                                            <i class="fab fa-apple"></i>
+                                        </span>
+                                        <span class="text-wrapper">
+                                            <span class="btn-tagline">Available on the </span>
+                                            <span class="crypto-btn-text">Play Store</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="crypto-app-cta-img text-center text-lg-end mt-5 mt-lg-0">
+                                <img src="assets/img/crypto-app-image.png" class="img-fluid" alt="Phone" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Cta End -->
+        <!-- Footer Start -->
+        <footer class="bg-dark-black crypto-footer pt-60">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="crypto-footer-widget text-center">
+                            <div class="">
+                                <a href="#" class="crypto-logo">
+                                    Code-Reactors
+                                </a>
+                                <p>
+                                    Bitcoin, first released as open-source software in is the
+                                    first decentralized cryptocurrency. Since the release of
+                                    bitcoin
+                                </p>
+                            </div>
+                            <nav class="crypto-footer-nav py-5">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item px-lg-4 px-3">
+                                        <a href="#" class="text-decoration-none fw-semibold text-white">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item px-lg-4 px-3">
+                                        <a href="#" class="text-decoration-none fw-semibold text-white">
+                                            About
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item px-lg-4 px-3">
+                                        <a href="#" class="text-decoration-none fw-semibold text-white">
+                                            Market
+                                            </Link>
+                                    </li>
+                                    <li class="list-inline-item px-lg-4 px-3">
+                                        <a href="#" class="text-decoration-none fw-semibold text-white">
+                                            Trading
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item px-lg-4 px-3">
+                                        <a href="#" class="text-decoration-none fw-semibold text-white">
+                                            Team
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <h4 class="text-white mb-4 fw-medium">
+                                Join the Conversation
+                            </h4>
+                            <ul class="list-unstyled crypto-footer-social pb-120">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-behance"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="crypto-footer-border py-3">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6 col-md-7">
+                            <div class="crypto-footer-left">
+                                <p class="m-0 text-center text-lg-start">
+                                    Copyright@themestags. 2022. All rights reserved.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-5">
+                            <div class="crypto-footer-right text-center text-md-end">
+                                <ul class="list-unstyled mt-3 mt-md-0">
+                                    <li class="list-inline-item pe-2">
+                                        <a href="#" class="text-decoration-none">
+                                            Support
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" class="text-decoration-none">
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
 </body>
+
 </html>
