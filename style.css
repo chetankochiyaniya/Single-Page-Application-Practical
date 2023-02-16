@@ -14,6 +14,7 @@ body{
 .navbar{
     box-shadow: rgb(177 174 174) 0px 0px 5px 1px;
     background-color:  var(--navcolor)!important;
+    height: 77px;
 }
 .navbar-nav a:hover{
      background-color: var(--hovercolor) !important;
@@ -31,12 +32,83 @@ body{
 .btn_color{
    background-color: var(--hovercolor);
    color: rgb(255, 255, 255);
-   width: 100px;
+   width: fit-content;
    border-radius: 10px;
-   border: 0px;
+   border: 0px !important;
+   padding: 5px 10px !important;
+   width: 130px !important;
+   height: 42px !important;
 }
 
 .nav_m{
     margin-left: 10px;
     margin-right: 10px;
+}
+.fs {
+    font-size: 1.25rem;
+    font-weight: 400
+}
+
+.play_icon{
+    font-size: 40px;
+    color: #ffffff;
+}
+.ml{
+    margin-left: 10px!important;
+}
+
+
+
+
+.home-img {
+    position: relative
+}
+
+.home-img .currency-icon li {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #222;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.home-img .currency-icon li:nth-child(1) {
+    height: 114px;
+    width: 114px;
+    top: 34%
+}
+
+.home-img .currency-icon li:nth-child(2) {
+    height: 84px;
+    width: 84px;
+    left: 17%;
+    top: 44px
+}
+
+.home-img .currency-icon li:nth-child(3) {
+    height: 110px;
+    width: 110px;
+    right: 17%
+}
+
+.home-img .currency-icon li:nth-child(4) {
+    height: 78px;
+    width: 78px;
+    right: 0;
+    top: 29%
+}
+
+@media (max-width: 767px) {
+    .home-img .currency-icon li {
+        display: none
+    }
 }

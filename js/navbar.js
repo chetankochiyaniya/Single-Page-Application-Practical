@@ -28,7 +28,7 @@ const navbar = `
                   </li>
                   
                 </ul>   
-                <button class="btn_color">Get Start</button>
+                <button class="btn_color">Get Started</button>
               </div>
           </div>
         </div>
