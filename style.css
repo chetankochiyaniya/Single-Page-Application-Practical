@@ -24,6 +24,10 @@ body{
     background-color:  var(--navcolor)!important;
 }
 
+.nav-link.active {
+    color: white;
+  }
+
 .btn_color{
    background-color: var(--hovercolor);
    color: rgb(255, 255, 255);

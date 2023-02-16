@@ -13,7 +13,7 @@ const navbar = `
               <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                   <li class="nav-item">
-                    <a class="nav-link nav_m" aria-current="page" href="#" onclick="onNavigate('/'); return false;"><strong>Home</strong> </a>
+                    <a class="nav-link nav_m active" aria-current="page" href="#" onclick="onNavigate('/'); return false;"><strong>Home</strong> </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link nav_m" href="#" onclick="onNavigate('/services'); return false;" ><strong>Services</strong> </a>
@@ -33,6 +33,23 @@ const navbar = `
           </div>
         </div>
       </nav>
-`
+      `
+
 document.getElementById('nav').innerHTML = navbar;
+const elem = document.querySelectorAll('.nav-link');
+    
+if (elem.length) {
+  elem.forEach((link) => {
+    link.addEventListener('click', (e) => {
+      elem.forEach((link) => {
+          link.classList.remove('active');
+      });
+      e.preventDefault();
+      link.classList.add('active');
+    });
+  });
+}
+
+
+
 
