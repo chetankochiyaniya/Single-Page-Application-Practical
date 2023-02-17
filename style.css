@@ -20,6 +20,7 @@ body{
 .navbar-nav a:hover{
      background-color: var(--hovercolor) !important;
      color: rgb(255, 255, 255);
+     border-radius: 10px;
   }
   .offcanvas.show{
     box-shadow: rgb(177 174 174) 0px 0px 5px 1px;

@@ -4,11 +4,8 @@ const d = document;
 d.body.style.background = BG_COLOR;
 
 const routes = {
-  '/' : home,
-  '/index.html' : home,
-  '/services' : services,
-  '/about' : about,
-  '/products' : products
+  '/' : main,
+  '/index.html' : main,
 };
 
 const rootDiv = document.getElementById('root');
@@ -22,10 +19,4 @@ const onNavigate = (pathname) => {
   )
   rootDiv.innerHTML = routes[pathname]
 }
-
-window.addEventListener("scroll",(e)=>{
-  document.getElementById('nav').style.backgroundColor = "white";
-  console.log("scrolling")
-})
-
   
