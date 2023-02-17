@@ -10,16 +10,16 @@ const home = `
                     You might wonder why a designer would choose to use Morem text
                     Paragraphs in English or their native language.
                 </p>
-                <div class="mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
+                <div class="mt-5 align-items-center d-flex">
                 <button class="btn_color rounded-pill">Get Started</button>
                     <div
-                        class="d-inline-flex align-items-center mt-3 mt-lg-0 mt-md-0 ml">
+                        class="d-inline-flex align-items-center mt-0 ml">
                         <i class="fa fa-play-circle play_icon"></i><span style="color:#2874f0; margin-left:5px"><u>How it works</u></span> 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-7 col-md-12">
+        <div class="col-lg-7 col-md-12 mt-5">
             <div class="home-img">
                 <ul class="currency-icon list-unstyled">
                     <li>
