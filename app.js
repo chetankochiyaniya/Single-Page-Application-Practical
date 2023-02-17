@@ -23,5 +23,9 @@ const onNavigate = (pathname) => {
   rootDiv.innerHTML = routes[pathname]
 }
 
+window.addEventListener("scroll",(e)=>{
+  document.getElementById('nav').style.backgroundColor = "white";
+  console.log("scrolling")
+})
 
   

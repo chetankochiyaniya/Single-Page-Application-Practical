@@ -1,5 +1,5 @@
 const navbar = `
-<nav class="navbar navbar-dark navbar-expand-lg  bg-dark fixed-top">
+<nav class="navbar navbar-dark navbar-expand-lg  bg-dark fixed-top" id="nav_bars">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><strong>Code Reactors</strong></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
