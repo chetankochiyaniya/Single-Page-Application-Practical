@@ -1,5 +1,5 @@
 const home=`
-< !--Home section -- >
+<!--Home section -->
 <hr id="home">
 <div class="container" >
     <div class="row align-items-center">
