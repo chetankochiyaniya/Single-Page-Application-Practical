@@ -1,8 +1,19 @@
+"use strict";
 const BG_COLOR = "#000000";
-const d = document;
+const rootDiv = document.getElementById('root');
+//set background color using js
+document.body.style.background = BG_COLOR;
 
-d.body.style.background = BG_COLOR;
+// main component
+const main = `
+<div>${navbar}</div>
+<div>${home}</div>
+<div>${services}</div>
+<div>${products}</div>
+<div>${about}</div>
+`
 
+// implement route functionality using useHistory web API
 const routes = {
   '#home': main,
   '/': main,
@@ -19,7 +30,6 @@ const routes = {
   '/#learning': info,
 };
 
-const rootDiv = document.getElementById('root');
 rootDiv.innerHTML = routes[window.location.pathname];
 
 const onNavigate = (pathname) => {
@@ -31,6 +41,7 @@ const onNavigate = (pathname) => {
   rootDiv.innerHTML = routes[pathname]
 }
 
+// event linstener to handle routes
 window.addEventListener('load', () => {
   if (window.location.href.includes("info")) {
     onNavigate('#info')

@@ -1,4 +1,5 @@
 const products=`
+<!--product section-->
 <hr class="mb-5" id="products" >
 <div class="container ">
     <div class="row align-items-center">
@@ -6,7 +7,7 @@ const products=`
             <div class="mb-5">
                 <h2 class="mb-4">
                     <b>
-                    Our Best Users Are all over the Worldwide Coverage
+                        Our Best Users Are all over the Worldwide Coverage
                     </b>
                 </h2>
                 <p>

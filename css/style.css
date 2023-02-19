@@ -1,9 +1,11 @@
+/* root varibale */
 :root {
     --hovercolor: #2874f0;
     --navcolor: #000000;
     --textcolor: #ffffff !important;
     --cardcolor: #222
 }
+
 @media (max-width: 767px) {
     .home-img .currency-icon li {
         display: none
@@ -11,6 +13,12 @@
 }
 
 
+
+/*  
+==========================
+      common css 
+=========================
+*/
 #root {
     margin-top: 60px !important;
 }
@@ -19,6 +27,63 @@ body {
     color: var(--textcolor);
 }
 
+.btn_color {
+    background-color: var(--hovercolor);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 10px;
+    border: 0px !important;
+    padding: 5px 10px !important;
+    width: 130px !important;
+    height: 42px !important;
+}
+
+.fs {
+    font-size: 1.25rem;
+    font-weight: 400
+}
+
+.play_icon {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.ml {
+    margin-left: 10px !important;
+}
+
+.card {
+    background-color: var(--cardcolor);
+    /* box-shadow: rgb(177 174 174) 0px 1px 5px 1px; */
+    padding: 20px !important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-lg-center {
+    text-align: center !important
+}
+
+.ft-color {
+    background-color: var(--cardcolor);
+}
+
+hr {
+    visibility: hidden;
+}
+
+.vs {
+    visibility: visible !important
+}
+
+
+
+/* 
+=================
+navbar css 
+==================
+*/
 .navbar {
     box-shadow: rgb(177 174 174) 0px 0px 5px 1px;
     background-color: var(--navcolor) !important;
@@ -38,17 +103,6 @@ body {
 
 .nav-link .active {
     color: white !important;
-  }
-
-.btn_color {
-    background-color: var(--hovercolor);
-    color: rgb(255, 255, 255);
-    width: fit-content;
-    border-radius: 10px;
-    border: 0px !important;
-    padding: 5px 10px !important;
-    width: 130px !important;
-    height: 42px !important;
 }
 
 .nav_m {
@@ -56,23 +110,14 @@ body {
     margin-right: 10px;
 }
 
-.fs {
-    font-size: 1.25rem;
-    font-weight: 400
-}
-
-.play_icon {
-    font-size: 40px;
-    color: #ffffff;
-}
-
-.ml {
-    margin-left: 10px !important;
-}
 
 
 
-
+/*
+================== 
+home image - css 
+===================
+*/
 .home-img {
     position: relative
 }
@@ -116,23 +161,8 @@ body {
     top: 29%
 }
 
-.card {
-    background-color: var(--cardcolor);
-    /* box-shadow: rgb(177 174 174) 0px 1px 5px 1px; */
-    padding: 20px !important;
-    justify-content: center;
-    align-items: center;
 
-}
-
-.text-lg-center {
-    text-align: center !important
-}
-
-.ft-color {
-    background-color: var(--cardcolor);
-}
-
+/* services section icon css */
 .crypt-promo-icon i {
     width: 65px;
     height: 65px;
@@ -144,11 +174,4 @@ body {
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
-}
-
-hr{
-    visibility: hidden ;
-}
-.vs{
-    visibility: visible !important
 }

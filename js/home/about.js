@@ -1,19 +1,19 @@
 const about= `
-<!-- Footer Start -->
+<!--About section-->
 <hr class="mt-5 vs" id="about" >
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-6">
             <div class="text-center">
-            <h2><b>About Us</b></h2>
+                <h2><b>About Us</b></h2>
                 <h3 class="text-white mb-4 mt-5 fw-medium">
-                Code Reactors
-            </h3>
-                    <p>
-                        Bitcoin, first released as open-source software in is the
-                        first decentralized cryptocurrency. Since the release of
-                        bitcoin
-                    </p>
+                    Code Reactors
+                </h3>
+                <p>
+                    Bitcoin, first released as open-source software in is the
+                    first decentralized cryptocurrency. Since the release of
+                    bitcoin
+                </p>
                 <h5 class="text-white mb-2 fw-medium">
                     Join the Conversation
                 </h5>
@@ -70,5 +70,4 @@ const about= `
         </div>
     </div>
 </div>
-<!-- Footer End -->
 `
