@@ -26,9 +26,9 @@ const navbar = `
                         <a class="nav-link nav_m active" href="#about" onclick="onNavigate('#about')"><strong>About Us</strong> </a>
                     </li>
                 </ul>
+                <button class="btn_color" onclick="onNavigate('#info')">Get Started</button>
             </div>
         </div>
-        <button class="btn_color" onclick="onNavigate('#info')">Get Started</button>
     </div>
 </nav>
 `
