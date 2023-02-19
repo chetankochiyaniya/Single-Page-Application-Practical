@@ -1,14 +1,17 @@
 const products=`
-<div class="container " id="products">
+<hr class="mb-5" id="products" >
+<div class="container ">
     <div class="row align-items-center">
         <div class="col-lg-6 col-md-12 mt-5">
             <div class="mb-5">
                 <h2 class="mb-4">
+                    <b>
                     Our Best Users Are all over the Worldwide Coverage
+                    </b>
                 </h2>
                 <p>
                     You might wonder why a designer would choose to use Morem text
-                    Paragraphs Lorem Ipsum available but the majority{" "}
+                    Paragraphs Lorem Ipsum available but the majority
                 </p>
                 <p>
                     embarrassing hidden in the middle of text. All the Lorem Ipsum

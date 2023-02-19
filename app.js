@@ -4,8 +4,19 @@ const d = document;
 d.body.style.background = BG_COLOR;
 
 const routes = {
-  '/' : main,
-  '/index.html' : main,
+  '#home': main,
+  '/': main,
+  '/index.html': main,
+  '/#services': main,
+  '#services': main,
+  '/#products': main,
+  '#products': main,
+  '/#about': main,
+  '#about': main,
+  '#info': info,
+  '/#info': info,
+  '#learning': info,
+  '/#learning': info,
 };
 
 const rootDiv = document.getElementById('root');
@@ -19,4 +30,13 @@ const onNavigate = (pathname) => {
   )
   rootDiv.innerHTML = routes[pathname]
 }
-  
+
+window.addEventListener('load', () => {
+  if (window.location.href.includes("info")) {
+    onNavigate('#info')
+    rootDiv.innerHTML = routes['#info'];
+  } else if (window.location.href.includes("learning")) {
+    onNavigate('#learning')
+    rootDiv.innerHTML = routes['#learning'];
+  }
+});
