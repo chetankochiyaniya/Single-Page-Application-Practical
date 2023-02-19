@@ -4,7 +4,7 @@ const home=`
 <div class="container" >
     <div class="row align-items-center">
         <div class="col-lg-5 col-md-12">
-            <div class="mt-5 mt-lg-0 mt-xl-0 mx-3">
+            <div class="mt-5 mt-lg-0 mt-md-5 mt-xl-0 mx-3">
                 <h1 class="display-5 fw-bold">
                     Trusted & Secure Trading Crypto Wallet
                 </h1>
