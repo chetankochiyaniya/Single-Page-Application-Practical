@@ -7,6 +7,12 @@ const routes = {
   '#home' : main,
   '/' : main,
   '/index.html' : main,
+  '/#services': main,
+  '#services': main,
+  '/#products': main,
+  '#products': main,
+  '/#about': main,
+  '#about': main,
   '#info':info,
   '/#info':info
 };
@@ -23,13 +29,8 @@ const onNavigate = (pathname) => {
     rootDiv.innerHTML = routes[pathname]
   }
 
-//   window.addEventListener('hashchange', function () {
-//     console.log('location changed!');
-// });
-window.addEventListener('load', (event) => {
-  console.log("test",window.location.href)
+window.addEventListener('load', () => {
   if(window.location.href.includes("info")){
-    console.log("true")
     onNavigate('#info')
     rootDiv.innerHTML = routes['#info'];
   }

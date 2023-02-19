@@ -10,19 +10,19 @@ const navbar = `
                 <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Code Reactors</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-              <div class="offcanvas-body">
+              <div class="offcanvas-body" id="nav">
                 <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                   <li class="nav-item">
                     <a class="nav-link nav_m active" href="#home" onclick="onNavigate('#home')"><strong>Home</strong> </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav_m" href="#services"><strong>Services</strong> </a>
+                    <a class="nav-link nav_m active" href="#services" onclick="onNavigate('#services')"><strong>Services</strong> </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav_m" href="#products"><strong>Products</strong> </a>
+                    <a class="nav-link nav_m active" href="#products" onclick="onNavigate('#products')"><strong>Products</strong> </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav_m" href="#about"><strong>About Us</strong> </a>
+                    <a class="nav-link nav_m active" href="#about" onclick="onNavigate('#about')"><strong>About Us</strong> </a>
                   </li>
                     </ul>
                   </li>
@@ -34,7 +34,3 @@ const navbar = `
         </div>
       </nav>
       `
-
-
-
-

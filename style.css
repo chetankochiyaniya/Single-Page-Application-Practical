@@ -1,62 +1,67 @@
-
 :root {
     --hovercolor: #2874f0;
     --navcolor: #000000;
-    --textcolor:  #ffffff !important;
+    --textcolor: #ffffff !important;
     --cardcolor: #222
-    
 }
-#root{
+
+#root {
     margin-top: 60px !important;
 }
-body{
+
+body {
     color: var(--textcolor);
 }
-.navbar{
+
+.navbar {
     box-shadow: rgb(177 174 174) 0px 0px 5px 1px;
-    background-color:  var(--navcolor)!important;
+    background-color: var(--navcolor) !important;
     height: 77px;
 }
-.navbar-nav a:hover{
-     background-color: var(--hovercolor) !important;
-     color: rgb(255, 255, 255);
-     border-radius: 10px;
-  }
-  .offcanvas.show{
+
+.navbar-nav a:hover {
+    background-color: var(--hovercolor) !important;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.offcanvas.show {
     box-shadow: rgb(177 174 174) 0px 0px 5px 1px;
-    background-color:  var(--navcolor)!important;
+    background-color: var(--navcolor) !important;
 }
 
-.nav-link.active {
-    color: white;
+.nav-link .active {
+    color: white !important;
   }
 
-.btn_color{
-   background-color: var(--hovercolor);
-   color: rgb(255, 255, 255);
-   width: fit-content;
-   border-radius: 10px;
-   border: 0px !important;
-   padding: 5px 10px !important;
-   width: 130px !important;
-   height: 42px !important;
+.btn_color {
+    background-color: var(--hovercolor);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 10px;
+    border: 0px !important;
+    padding: 5px 10px !important;
+    width: 130px !important;
+    height: 42px !important;
 }
 
-.nav_m{
+.nav_m {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .fs {
     font-size: 1.25rem;
     font-weight: 400
 }
 
-.play_icon{
+.play_icon {
     font-size: 40px;
     color: #ffffff;
 }
-.ml{
-    margin-left: 10px!important;
+
+.ml {
+    margin-left: 10px !important;
 }
 
 
@@ -112,16 +117,37 @@ body{
 }
 
 
-.card{
+.card {
     background-color: var(--cardcolor);
     /* box-shadow: rgb(177 174 174) 0px 1px 5px 1px; */
     padding: 20px !important;
 
 }
+
 .text-lg-center {
     text-align: center !important
 }
 
-.ft-color{
+.ft-color {
     background-color: var(--cardcolor);
+}
+
+.crypt-promo-icon i {
+    width: 65px;
+    height: 65px;
+    color: #fff;
+    background-color: #3b3b3b;
+    display: inline-block;
+    border-radius: 50px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+hr{
+    visibility: hidden ;
+}
+.vs{
+    visibility: visible !important
 }
