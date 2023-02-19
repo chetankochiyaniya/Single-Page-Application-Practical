@@ -1,11 +1,7 @@
 const main = `
 <div>${navbar}</div>
-<!-- home section -->
-<div id="home">${home}</div>
-<!-- services section -->
+<div>${home}</div>
 <div>${services}</div>
-<!-- products section -->
-<div id="products">${products}</div>
-<!-- about section -->
-<div id="about">${about}</div>
+<div>${products}</div>
+<div>${about}</div>
 `

@@ -1,6 +1,7 @@
 const home=`
 <!-- section-1 -->
-<div class="container" id="home">
+<hr id="home">
+<div class="container" >
     <div class="row align-items-center">
         <div class="col-lg-5 col-md-12">
             <div class="mt-5 mt-lg-0 mt-xl-0 mx-3">
@@ -12,7 +13,7 @@ const home=`
                     Paragraphs in English or their native language.
                 </p>
                 <div class="mt-5 align-items-center d-flex">
-                <button class="btn_color rounded-pill"><strong>Get Started</strong></button>
+                <button class="btn_color rounded-pill" onclick="onNavigate('#info')"><strong>Get Started</strong></button>
                     <div
                         class="d-inline-flex align-items-center mt-0 ml">
                         <i class="fa fa-play-circle play_icon"></i><span style="color:#2874f0; margin-left:5px"><u>How it works</u></span> 

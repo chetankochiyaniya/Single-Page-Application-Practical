@@ -4,6 +4,12 @@
     --textcolor: #ffffff !important;
     --cardcolor: #222
 }
+@media (max-width: 767px) {
+    .home-img .currency-icon li {
+        display: none
+    }
+}
+
 
 #root {
     margin-top: 60px !important;
@@ -110,17 +116,12 @@ body {
     top: 29%
 }
 
-@media (max-width: 767px) {
-    .home-img .currency-icon li {
-        display: none
-    }
-}
-
-
 .card {
     background-color: var(--cardcolor);
     /* box-shadow: rgb(177 174 174) 0px 1px 5px 1px; */
     padding: 20px !important;
+    justify-content: center;
+    align-items: center;
 
 }
 
