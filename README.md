@@ -47,7 +47,7 @@ for git: working in two branch:
 
 <img src="https://github.com/chetankochiyaniya/Single-Page-Application-Practical/blob/946d610b9ec27fc340557fab173b0e4a1172717c/outputs/mobile_product_page.png" alt="Practical Output Image" width="350px" height="550px" />      <img src="https://github.com/chetankochiyaniya/Single-Page-Application-Practical/blob/946d610b9ec27fc340557fab173b0e4a1172717c/outputs/mobile_about_page.png" width="350px" height="550px"  alt="Practical Output Image"/>
 
-<img src="https://github.com/chetankochiyaniya/Single-Page-Application-Practical/blob/946d610b9ec27fc340557fab173b0e4a1172717c/outputs/mobile_info_page.png" alt="Practical Output Image" width="300px" height="550px" />     <img src="https://github.com/chetankochiyaniya/Single-Page-Application-Practical/blob/946d610b9ec27fc340557fab173b0e4a1172717c/outputs/mobile_blog_page.png" width="300px" height="550px" alt="Practical Output Image"/>
+<img src="https://github.com/chetankochiyaniya/Single-Page-Application-Practical/blob/946d610b9ec27fc340557fab173b0e4a1172717c/outputs/mobile_info_page.png" alt="Practical Output Image" width="350px" height="550px" />     <img src="https://github.com/chetankochiyaniya/Single-Page-Application-Practical/blob/946d610b9ec27fc340557fab173b0e4a1172717c/outputs/mobile_blog_page.png" width="350px" height="550px" alt="Practical Output Image"/>
 </pre>
 
 #
